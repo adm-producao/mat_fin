@@ -11,7 +11,7 @@
     <script src="libs/panelset/panelset.js"></script>
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
     <script src="libs/tile-view/tile-view.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"d1897453238744aca0723c0f86e1df6e","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"c1f4bd3e489b47ad82b4db6fc5d4a489","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -225,19 +225,12 @@ Uma pessoa deposita anualmente R$5.000,00 numa conta especial particular. Qual s
 Depósito anual (R): R$ 5.000,00   
 Número de depósitos (n): 5 anos   
 Taxa (i): 8% ao ano (a.a.)   
-Encontrar: Saldo final (Valor Futuro)   
+Encontrar: Saldo final (Montante)   
 ]
 
 .pull-right[
-VF = 5.000 × [((1,08)⁵ - 1) / 0,08]
-
-VF = 5.000 × [(1,469328 - 1) / 0,08]
-
-VF = 5.000 × [0,469328 / 0,08]
-
-VF = 5.000 × 5,8666
-
-VF = R$ 29.333,00 ✓
+M = 5.000 × [((1,08)⁵ - 1) / 0,08]   
+M = R$ 29.333,00 ✓
 ]
 
 ---
@@ -269,8 +262,7 @@ Encontrar: Depósito trimestral (R)
 
 
 .pull-right[
-R = 25000 x (0,075) / ((1,075)^8 - 1)   
-R = 1875 / 0,783478   
+R = 25000 x ((0.75) / ((1,075)^8 - 1))   
 R = R$ 2393.00
 ]
 
@@ -318,7 +310,7 @@ P = R$ 983,30
 
 Para determinação do valor de um pagamento quando o principal é conhecido, inverte-se a expressão anterior
 
-`$$R = P \times \frac{i\times(1+i)^n}{(1 + i)^{-n}-1}$$`
+`$$R = P \times \frac{i\times(1+i)^n}{(1 + i)^{n}-1}$$`
 ---
 
 
@@ -339,10 +331,7 @@ Encontrar: Prestação mensal (PMT)
 
 .pull-right[
 
-= [0,05 × 1,21550625] / [1,21550625 - 1]   
-= 0,060775313 / 0,21550625   
-= 0,28201183   
-R = 500 × 0,28201183   
+R = 500 × [0,05 × (1,05)⁴] / [(1,05)⁴ - 1]
 R = R$ 141,01
 ]
 ---

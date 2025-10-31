@@ -213,19 +213,12 @@ Uma pessoa deposita anualmente R$5.000,00 numa conta especial particular. Qual s
 Depósito anual (R): R$ 5.000,00   
 Número de depósitos (n): 5 anos   
 Taxa (i): 8% ao ano (a.a.)   
-Encontrar: Saldo final (Valor Futuro)   
+Encontrar: Saldo final (Montante)   
 ]
 
 .pull-right[
-VF = 5.000 × [((1,08)⁵ - 1) / 0,08]
-
-VF = 5.000 × [(1,469328 - 1) / 0,08]
-
-VF = 5.000 × [0,469328 / 0,08]
-
-VF = 5.000 × 5,8666
-
-VF = R$ 29.333,00 ✓
+M = 5.000 × [((1,08)⁵ - 1) / 0,08]   
+M = R$ 29.333,00 ✓
 ]
 
 ---
@@ -257,8 +250,7 @@ Encontrar: Depósito trimestral (R)
 
 
 .pull-right[
-R = 25000 x (0,075) / ((1,075)^8 - 1)   
-R = 1875 / 0,783478   
+R = 25000 x ((0.75) / ((1,075)^8 - 1))   
 R = R$ 2393.00
 ]
 
